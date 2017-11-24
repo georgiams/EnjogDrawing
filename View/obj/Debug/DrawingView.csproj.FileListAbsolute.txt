@@ -1,0 +1,4 @@
+E:\VS Program\EnjoyDrawing\View\bin\Debug\View.dll
+E:\VS Program\EnjoyDrawing\View\bin\Debug\View.pdb
+E:\VS Program\EnjoyDrawing\View\obj\Debug\View.dll
+E:\VS Program\EnjoyDrawing\View\obj\Debug\View.pdb

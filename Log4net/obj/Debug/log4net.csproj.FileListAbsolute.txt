@@ -1,0 +1,11 @@
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\build\bin\net\4.5\debug\log4net.dll
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\build\bin\net\4.5\debug\log4net.pdb
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\build\bin\net\4.5\debug\log4net.xml
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\src\obj\Debug\log4net.csprojResolveAssemblyReference.cache
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\src\obj\Debug\log4net.dll
+C:\Users\xiongang\Desktop\Logger\logging-log4net-develop\src\obj\Debug\log4net.pdb
+E:\VS Program\EnjoyDrawing\build\bin\net\4.5\debug\log4net.dll
+E:\VS Program\EnjoyDrawing\build\bin\net\4.5\debug\log4net.pdb
+E:\VS Program\EnjoyDrawing\build\bin\net\4.5\debug\log4net.xml
+E:\VS Program\EnjoyDrawing\Log4net\obj\Debug\log4net.dll
+E:\VS Program\EnjoyDrawing\Log4net\obj\Debug\log4net.pdb

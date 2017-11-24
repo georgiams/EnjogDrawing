@@ -1,0 +1,37 @@
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\Microsoft.XmlNotepad.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\Microsoft.XmlNotepad.pdb
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlDiffPatch.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlDiffPatch.View.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlStats.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlDiffPatch.View.pdb
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlDiffPatch.pdb
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\XmlStats.pdb
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\bin\Debug\Microsoft.mshtml.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.csprojResolveAssemblyReference.cache
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.csproj.ResolveComReference.cache
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormCsvImport.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormMain.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormAbout.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormOptions.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormSchemas.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.FormSearch.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.NodeTextView.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.Properties.Resources.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.PaneResizer.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.SR.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.TaskList.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.XmlTreeView.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.XsltViewer.resources
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\XmlNotepad.csproj.GenerateResource.Cache
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\Microsoft.XmlNotepad.dll
+C:\Users\xiongang\Downloads\XmlNotepad-master\XmlNotepad-master\src\XmlNotepad\obj\Debug\Microsoft.XmlNotepad.pdb
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.csprojResolveAssemblyReference.cache
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.csproj.ResolveComReference.cache
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.FormMain.resources
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.Properties.Resources.resources
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.TaskList.resources
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.XmlTreeView.resources
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.XsltViewer.resources
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\XmlNotepad.csproj.GenerateResource.Cache
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\Microsoft.XmlNotepad.dll
+E:\VS Program\EnjoyDrawing\XmlNotepad\obj\Debug\Microsoft.XmlNotepad.pdb
