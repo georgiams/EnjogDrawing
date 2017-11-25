@@ -1,0 +1,18 @@
+<Add/Remove page>
+add p "name"
+del p n/"name" 
+tab p
+
+<Add/Remove shape>
+draw l/r/c x1 y1 x2 y2
+del l/r/c "name"
+
+<Query page/shape>
+show p/s
+
+<Hide shell>
+exit
+
+<Save/Close project>
+save
+close

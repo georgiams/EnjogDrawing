@@ -9,6 +9,7 @@ using System.IO;
 using System.Globalization;
 using Model.ModelController;
 using Model.ModelEntity;
+using Shell;
 
 //注意下面的语句一定要加上，指定log4net使用.config文件来读取配置信息
 //如果是WinForm（假定程序为MyDemo.exe，则需要一个MyDemo.exe.config文件）
@@ -137,6 +138,29 @@ namespace Model
                 modelController.Draw(canvas, type, startPoint, endPoint);
                 bBeginDraw = false;
             }
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            OpenConsole();
+        }
+
+        private void TextBox_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            OpenConsole();
+        }
+
+        private void OpenConsole()
+        {
+            Thread t = new Thread(
+                () =>
+                {
+                    ConsoleManager.Show();
+                    Console.WriteLine("hello");
+                    Console.ReadLine();
+                    ConsoleManager.Hide();
+                });
+            t.Start();
         }
     }
 }

@@ -56,31 +56,45 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Action\Action.cs" />
-    <Compile Include="Action\AddShapeAction.cs" />
-    <Compile Include="Action\DeleteShapeAction.cs" />
+    <Compile Include="Action\ActionFactory.cs" />
+    <Compile Include="Action\ActionProcessor.cs" />
+    <Compile Include="Action\Actions\AddPageAction.cs" />
+    <Compile Include="Action\Actions\AddShapeAction.cs" />
+    <Compile Include="Action\Actions\CloseProjectAction.cs" />
+    <Compile Include="Action\Actions\RemovePageAction.cs" />
+    <Compile Include="Action\Actions\RemoveShapeAction.cs" />
+    <Compile Include="Action\Actions\SaveProjectAction.cs" />
+    <Compile Include="Action\Actions\ShowPageAction.cs" />
+    <Compile Include="Action\Actions\ShowProjectAction.cs" />
+    <Compile Include="Action\Actions\SwitchPageAction.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Shell\ConsoleManager.cs" />
+    <Compile Include="ViewModel\DelegateCommand.cs" />
+    <Compile Include="ViewModel\DrawerViewModel.cs" />
+    <Compile Include="ViewModel\NotificationObject.cs" />
+    <Compile Include="ViewModel\PresenterViewModel.cs" />
+    <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModelController\ModelEntityController.cs" />
-    <Compile Include="ModelController\PageController.cs" />
-    <Compile Include="ModelEntity\ModelEntity.cs" />
-    <Compile Include="ModelEntity\Page.cs" />
-    <Compile Include="ModelEntity\Shape\Circle.cs" />
-    <Compile Include="ModelEntity\Shape\Line.cs" />
-    <Compile Include="ModelEntity\Shape\Rectangle.cs" />
-    <Compile Include="ModelEntity\Shape\Shape.cs" />
+    <Compile Include="Model\ModelController\ModelEntityController.cs" />
+    <Compile Include="Model\ModelController\PageController.cs" />
+    <Compile Include="Model\ModelEntity\ModelEntity.cs" />
+    <Compile Include="Model\ModelEntity\Page.cs" />
+    <Compile Include="Model\ModelEntity\Shape\Circle.cs" />
+    <Compile Include="Model\ModelEntity\Shape\Line.cs" />
+    <Compile Include="Model\ModelEntity\Shape\Rectangle.cs" />
+    <Compile Include="Model\ModelEntity\Shape\Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -120,18 +134,11 @@
       <Project>{f87caefe-9d16-4f24-9e01-2a46bf8f345c}</Project>
       <Name>PerformanceRecorder</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ViewModel\DrawingViewModel.csproj">
-      <Project>{df508e69-3c6c-40fc-aaf0-8ea32355ba59}</Project>
-      <Name>DrawingViewModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\View\DrawingView.csproj">
-      <Project>{382532a3-ec96-49e4-9366-5dff2de097ce}</Project>
-      <Name>DrawingView</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icon\EnjoyDrawing.ico" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="EnjoyDrawing.ico" />
   </ItemGroup>

@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Model.Action
+﻿namespace Model.Action
 {
     enum ActionType
     {
-        DeleteShape,
-        AddShape
+        AddPage,
+        RemovePage,
+        AddShape,
+        RemoveShape,
+        ShowProject,
+        ShowPage,
+        SaveProject,
+        CloseProject
     }
     abstract class Action
     {
         # region properity
-        public ActionType type { get; set; }
+        public ActionType Type { get; set; }
+        public string Name { get; set; }
         # endregion properity
 
         # region method

@@ -6,6 +6,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="24" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="28" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="Black">
             <Menu Background="Bisque" Margin="0,0,0,1">
@@ -17,9 +18,13 @@
                     <MenuItem Header="Close"/>
                 </MenuItem> 
                 <MenuItem Header="Edit">
-                    <MenuItem Header="Line"/>
-                    <MenuItem Header="Circle"/>
-                    <MenuItem Header="Rectangle"/>
+                    <MenuItem Header="Shape">
+                        <MenuItem Header="Line"/>
+                        <MenuItem Header="Circle"/>
+                        <MenuItem Header="Rectangle"/>
+                    </MenuItem>
+                    <Separator/>
+                    <MenuItem Header="OpenShell" Background="Wheat" Click="MenuItem_Click"/>
                     <Separator/>
                     <MenuItem Header="Undo"/>
                     <MenuItem Header="Redo"/>
@@ -52,6 +57,14 @@
                     </TabItem>
                 </TabControl>
             </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,0,0,0" Background="Wheat">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="Command:" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox Grid.Column="1"  Margin="0,0,4,0" Text="" Background="Transparent" Foreground="Blue" VerticalAlignment="Center" MouseDoubleClick="TextBox_MouseDoubleClick"/>
         </Grid>
     </Grid>
 </Window>

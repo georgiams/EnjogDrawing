@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingView", "View\DrawingView.csproj", "{382532A3-EC96-49E4-9366-5DFF2DE097CE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingViewModel", "ViewModel\DrawingViewModel.csproj", "{DF508E69-3C6C-40FC-AAF0-8EA32355BA59}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingModel", "Model\DrawingModel.csproj", "{42E38DED-6231-40FF-9A7F-7A907E62D253}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing", "Model\Drawing.csproj", "{42E38DED-6231-40FF-9A7F-7A907E62D253}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceRecorder", "PerformanceRecorder\PerformanceRecorder.csproj", "{F87CAEFE-9D16-4F24-9E01-2A46BF8F345C}"
 EndProject
@@ -21,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{382532A3-EC96-49E4-9366-5DFF2DE097CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{382532A3-EC96-49E4-9366-5DFF2DE097CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{382532A3-EC96-49E4-9366-5DFF2DE097CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{382532A3-EC96-49E4-9366-5DFF2DE097CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF508E69-3C6C-40FC-AAF0-8EA32355BA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF508E69-3C6C-40FC-AAF0-8EA32355BA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF508E69-3C6C-40FC-AAF0-8EA32355BA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF508E69-3C6C-40FC-AAF0-8EA32355BA59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42E38DED-6231-40FF-9A7F-7A907E62D253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42E38DED-6231-40FF-9A7F-7A907E62D253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E38DED-6231-40FF-9A7F-7A907E62D253}.Release|Any CPU.ActiveCfg = Release|Any CPU

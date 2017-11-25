@@ -7,16 +7,17 @@ using Model.ModelEntity;
 
 namespace Model.Action
 {
-    class DeleteShapeAction:Action
+    class AddShapeAction:Action
     {
         # region properity
         public Page parentPage { get; set; }
         public Shape currentShape { get; set; }
         # endregion properity
+
         # region method
-        public DeleteShapeAction()
+        public AddShapeAction()
         {
-            type = ActionType.DeleteShape;
+            Type = ActionType.AddShape;
         }
         public override void Do()
         {
