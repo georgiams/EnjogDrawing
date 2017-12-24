@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CommonServiceLocator</id>
+    <version>2.0.1</version>
+    <title>CommonServiceLocator</title>
+    <authors>unitycontainer Microsoft.Practices.Unity Unity Microsoft.Practices.ServiceLocation</authors>
+    <owners>unitycontainer Microsoft.Practices.Unity Unity Microsoft.Practices.ServiceLocation</owners>
+    <licenseUrl>https://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/unitycontainer/commonservicelocator</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/12849707</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The library provides an abstraction over IoC containers and service locators. Using the library allows an application to indirectly access the capabilities without relying on hard references.</description>
+    <summary>This release:
+changes assembly name to CommonServiceLocator.dll
+changes namespace to CommonServiceLocator
+adds support for .NET Core 1.0, .NET Standard 2.0, .NET 4.0, .NET 4.5, and .NET 4.7</summary>
+    <releaseNotes>This release contains a portable class library that targets .NET 4.0, 4.5, and 4.7, .NET Core 1.0, and .NET Standard 2.0.
+
+It is not compatible with previous release 1.*</releaseNotes>
+    <copyright>Copyright © Microsoft 2008</copyright>
+    <tags>unitycontainer Microsoft.Practices.Unity Unity Container IoC Microsoft.Practices.ServiceLocation Service Location</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.NETCore.App" version="1.0.5" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

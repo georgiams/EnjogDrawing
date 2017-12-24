@@ -7,10 +7,8 @@ using System.Reflection;
 using log4net;
 using System.IO;
 using System.Globalization;
-using Model.ModelController;
-using Model.ModelEntity;
 using Shell;
-
+using Model.ViewModel;
 //注意下面的语句一定要加上，指定log4net使用.config文件来读取配置信息
 //如果是WinForm（假定程序为MyDemo.exe，则需要一个MyDemo.exe.config文件）
 //如果是WebForm，则从web.config中读取相关信息
@@ -23,7 +21,7 @@ namespace Model
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {
+        {/*
             //For WPF
             Application.Current.DispatcherUnhandledException += (sender, args) =>
             {
@@ -40,14 +38,14 @@ namespace Model
                 SendCrashReport((Exception)args.ExceptionObject);
                 Environment.Exit(0);
             };
-
+            */
             InitializeComponent();
-
+            DataContext = new ViewModel.ViewModel(this);
             //new Thread(ThrowException).Start();
             //new Thread(TestPerformanceRecord).Start();
             //new Thread(TestLog4net).Start(); 
         }
-       
+       /*
         void TestPerformanceRecord()
         {
             PerformanceRecorder.StartRecorder(RecordType.OpenEnjoyDrawing, "test");
@@ -162,5 +160,6 @@ namespace Model
                 });
             t.Start();
         }
+        * */
     }
 }

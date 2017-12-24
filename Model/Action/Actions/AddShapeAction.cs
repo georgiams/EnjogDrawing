@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model.ModelEntity;
 
-namespace Model.Action
+namespace Model.EDAction
 {
-    class AddShapeAction:Action
+    class AddShapeAction:EDAction
     {
         # region properity
-        public Page parentPage { get; set; }
-        public Shape currentShape { get; set; }
         # endregion properity
 
         # region method
@@ -19,17 +16,22 @@ namespace Model.Action
         {
             Type = ActionType.AddShape;
         }
-        public override void Do()
-        {
+        
+        
 
+        public override void Do(string projectXML)
+        {
+            throw new NotImplementedException();
         }
-        public override void UnDo()
-        {
 
+        public override void UnDo(string projectXML)
+        {
+            throw new NotImplementedException();
         }
-        public override void ReDo()
-        {
 
+        public override void ReDo(string projectXML)
+        {
+            throw new NotImplementedException();
         }
         # endregion method
     }

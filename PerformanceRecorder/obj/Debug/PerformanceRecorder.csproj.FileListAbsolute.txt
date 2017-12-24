@@ -2,3 +2,4 @@ E:\VS Program\EnjoyDrawing\PerformanceRecorder\bin\Debug\PerformanceRecorder.dll
 E:\VS Program\EnjoyDrawing\PerformanceRecorder\bin\Debug\PerformanceRecorder.pdb
 E:\VS Program\EnjoyDrawing\PerformanceRecorder\obj\Debug\PerformanceRecorder.dll
 E:\VS Program\EnjoyDrawing\PerformanceRecorder\obj\Debug\PerformanceRecorder.pdb
+E:\VS Program\EnjoyDrawing\PerformanceRecorder\obj\Debug\PerformanceRecorder.csprojResolveAssemblyReference.cache

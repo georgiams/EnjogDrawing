@@ -1,4 +1,4 @@
-﻿namespace Model.Action
+﻿namespace Model.EDAction
 {
     enum ActionType
     {
@@ -11,7 +11,7 @@
         SaveProject,
         CloseProject
     }
-    abstract class Action
+    abstract class EDAction
     {
         # region properity
         public ActionType Type { get; set; }
@@ -19,9 +19,9 @@
         # endregion properity
 
         # region method
-        public abstract void Do();
-        public abstract void UnDo();
-        public abstract void ReDo();
+        public abstract void Do(string projectXML);
+        public abstract void UnDo(string projectXML);
+        public abstract void ReDo(string projectXML);
         # endregion method
     }
 }

@@ -9,3 +9,4 @@ E:\VS Program\EnjoyDrawing\build\bin\net\4.5\debug\log4net.pdb
 E:\VS Program\EnjoyDrawing\build\bin\net\4.5\debug\log4net.xml
 E:\VS Program\EnjoyDrawing\Log4net\obj\Debug\log4net.dll
 E:\VS Program\EnjoyDrawing\Log4net\obj\Debug\log4net.pdb
+E:\VS Program\EnjoyDrawing\Log4net\obj\Debug\log4net.csprojResolveAssemblyReference.cache

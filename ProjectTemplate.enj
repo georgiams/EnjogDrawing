@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="projectname.enj">
+    <Pages selectedPage="page2">
+        <Page name="page1">
+                <Shape name="shape1" type="Line">
+                    <Point>10.0,10.0</Point>
+                    <Point>100.0,100.0</Point>
+                </Shape>
+        </Page>
+        <Page name="page2">
+                <Shape name="shape1" type="Rectangle">
+                    <Point>10.0,10.0</Point>
+                    <Point>100.0,100.0</Point>
+                </Shape>
+        </Page>
+        <Page name="pagen">
+                <Shape name="shape1" type="Circle">
+                    <Point>10.0,10.0</Point>
+                    <Point>100.0,100.0</Point>
+                </Shape>
+        </Page>
+    </Pages>
+</Project>

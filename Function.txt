@@ -1,6 +1,6 @@
 <Add/Remove page>
 add p "name"
-del p n/"name" 
+del p "name" 
 tab p
 
 <Add/Remove shape>
@@ -16,3 +16,15 @@ exit
 <Save/Close project>
 save
 close
+
+<script drawing>
+file.drwa
+
+<Action type="do" name="addpage">
+<Page name="" action="del">
+<Shape name="" action="add">
+<Point></Point>
+<Point></Point>
+</Shape>
+</Page>
+</Action>
